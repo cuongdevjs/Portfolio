@@ -1,0 +1,126 @@
+.dashboard-section {
+  position: relative;
+  padding-top: 120px !important;
+  padding-bottom: 60px !important;
+}
+
+.dashboard-card-wrapper {
+  margin-top: 20px;
+}
+
+.dashboard-card {
+  background: rgba(17, 16, 16, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  height: 100%;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-10px);
+  border-color: rgb(69, 79, 140);
+}
+
+.dashboard-icon {
+  color: rgb(69, 79, 140);
+  margin-bottom: 15px;
+}
+
+.dashboard-value {
+  color: rgb(69, 79, 140);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.dashboard-title {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.dashboard-desc {
+  color: #adadb8;
+  font-size: 0.9rem;
+}
+
+.dashboard-subheading {
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+/* Skills List Tags */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 20px;
+  background: rgba(17, 16, 16, 0.3);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.skill-tag {
+  background: rgba(69, 79, 140, 0.1);
+  border: 1px solid rgba(69, 79, 140, 0.3);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.skill-tag:hover {
+  background: rgba(69, 79, 140, 0.3);
+  border-color: rgb(69, 79, 140);
+  transform: translateY(-2px);
+}
+
+/* Milestones Table */
+.milestone-table-wrapper {
+  background: rgba(17, 16, 16, 0.3);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px;
+}
+
+.milestone-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.milestone-table tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.milestone-table tr:last-child {
+  border-bottom: none;
+}
+
+.milestone-table td {
+  padding: 15px 10px;
+  color: white;
+  text-align: left;
+  vertical-align: top;
+}
+
+.m-year {
+  color: rgb(69, 79, 140);
+  font-weight: bold;
+  white-space: nowrap;
+  width: 120px;
+}
+
+.m-desc {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}

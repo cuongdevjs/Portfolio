@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 // import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 // import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+// import { ImBlog } from "react-icons/im";
 import {
 	// AiFillStar,
 	AiOutlineHome,
@@ -41,7 +41,7 @@ function NavBar() {
 				<Navbar.Brand href="/" className="d-flex">
 					{/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
 					<h3>
-						<strong className="purple">Leo</strong>
+						<strong className="purple">Cuong.NM</strong>
 					</h3>
 				</Navbar.Brand>
 				<Navbar.Toggle

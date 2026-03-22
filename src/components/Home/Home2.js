@@ -15,33 +15,30 @@ function Home2() {
 							LET ME <span className="purple"> INTRODUCE </span> MYSELF
 						</h1>
 						<p className="home-about-body">
-							I fell in love with programming when starting my journey as a
-							developer and I happy when I can build something new, I think… 🤷‍♂️
+							I am a <b className="purple">Frontend Engineer & Tech Lead</b> with nearly <b className="purple">6 years</b> of experience in building and maintaining high-performance web and mobile applications.
 							<br />
-							<br />I am fluent in modern programming languages like
+							<br />I am fluent in modern stacks like
 							<i>
-								<b className="purple"> Javascript. </b>
+								<b className="purple"> JavaScript, TypeScript. </b>
 							</i>
 							<br />
 							<br />
-							My field of Interest's are building features helpful and useful
-							for&nbsp;
+							My primary focus is developing scalable solutions for products like&nbsp;
 							<i>
-								<b className="purple">Panoee </b>
+								<b className="purple">Panoee (SaaS platform with 80K+ users) </b>
+							</i>
+							and various enterprise applications for
+							<i>
+								<b className="purple"> MobiFone and Sun Group.</b>
 							</i>
 							<br />
 							<br />
-							Whenever possible, I also apply my passion for developing products
-							with <b className="purple">Node.js</b> and
+							I have a deep passion for building modern interfaces using
 							<i>
 								<b className="purple">
 									{" "}
-									Modern Javascript Library and Frameworks
+									ReactJS, NextJS, and React Native.
 								</b>
-							</i>
-							&nbsp; like
-							<i>
-								<b className="purple"> React.js and Next.js</b>
 							</i>
 						</p>
 					</Col>

@@ -11,29 +11,32 @@ function AboutCard() {
 						Hi, I'm <span className="purple">Cuong Manh Nguyen (Leo) </span>
 						from <span className="purple"> Ha Noi, Viet Nam.</span>
 						<br />
-						I am currently employed as a JavaScript developer at Starfruit, a
-						startup company.
+						I am a <span className="purple">Frontend Tech Lead</span> with nearly{" "}
+						<span className="purple">6 years</span> of professional experience.
 						<br />
-						I have a Bachelor's degree in Information Technology at University
-						of Transport and Communication.
+						I specialize in building high-performance web and mobile
+						applications using modern JavaScript frameworks. I have successfully
+						led projects like <span className="purple">Panoee</span> (SaaS with
+						80K+ users) and enterprise solutions for{" "}
+						<span className="purple">MobiFone and Sun Group</span>.
 						<br />
 						<br />
-						Apart from coding, some other activities that I love to do!
+						Beyond coding, here are some things I enjoy:
 					</p>
 					<ul>
 						<li className="about-activity">
-							<ImPointRight /> Watching Movies
+							<ImPointRight /> Mastering new Tech Stacks
 						</li>
 						<li className="about-activity">
-							<ImPointRight /> Read Newspapers, Books
+							<ImPointRight /> Reading Tech Blogs & Documentation
 						</li>
 						<li className="about-activity">
-							<ImPointRight /> Play Badminton, Football or Running outside
+							<ImPointRight /> Football, Badminton, and Outdoor Running
 						</li>
 					</ul>
 
-					<p style={{ color: "rgb(155 126 172)" }}>
-						"Happy building something helpful and learning everyday!"{" "}
+					<p style={{ color: "rgb(69, 79, 140)" }}>
+						"Deliver high-quality products and grow as a leader every day!"{" "}
 					</p>
 					<footer className="blockquote-footer">Leo</footer>
 				</blockquote>

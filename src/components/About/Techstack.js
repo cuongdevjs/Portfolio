@@ -5,37 +5,59 @@ import {
 	DiReact,
 	DiNodejs,
 	DiMongodb,
-	DiCss3,
-	DiHtml5,
 	DiGit,
-	DiNginx,
 	DiAws,
 } from "react-icons/di";
-import { SiNextdotjs } from "react-icons/si";
+import {
+	SiNextdotjs,
+	SiTypescript,
+	SiRedux,
+	SiTailwindcss,
+	SiFirebase,
+	SiDocker,
+	SiAntdesign,
+	SiExpress,
+} from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
 
 function Techstack() {
 	return (
 		<Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
 			<Col xs={4} md={2} className="tech-icons">
-				<DiHtml5 />
-			</Col>
-			<Col xs={4} md={2} className="tech-icons">
-				<DiCss3 />
-			</Col>
-			<Col xs={4} md={2} className="tech-icons">
 				<DiJavascript1 />
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
-				<DiNodejs />
+				<SiTypescript />
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
 				<DiReact />
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
-				<DiMongodb />
+				<SiRedux />
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
 				<SiNextdotjs />
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiTailwindcss />
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiAntdesign />
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<TbBrandReactNative />
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<DiNodejs />
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiExpress />
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<DiMongodb />
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiFirebase />
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
 				<DiGit />
@@ -44,7 +66,7 @@ function Techstack() {
 				<DiAws />
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
-				<DiNginx />
+				<SiDocker />
 			</Col>
 		</Row>
 	);
